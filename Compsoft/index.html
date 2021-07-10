@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8" />
+    <title>Cats in sunnies</title>
+    <script defer src="index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+</html>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <button id="load-more-btn" class="button">Load More</button>
+      <select id="select" class="select" onchange="handleCategoryChange()"></select>
+    </div>
+   
+    <div id="list" class="list"></div>
+  </div>
+
+  <!-- Modal -->
+<div id="image-modal" class="modal">
+  <span class="close-btn">&times;</span>
+  <img class="modal-content" id="modal-image">
+</div>
+</body>
+</html>
